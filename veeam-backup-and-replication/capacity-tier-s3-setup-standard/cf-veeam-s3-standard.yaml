@@ -11,7 +11,7 @@ Parameters:
     AllowedPattern: '[a-z0-9][a-z0-9\-]*'
     ConstraintDescription: Must contain only letters, numbers, dashes and start with an alphanumeric character.
   Username:
-    Default: veeam-s3-user
+    Default: veeam-s3-svcaccount
     Description: IAM username
     Type: String
     MinLength: 1
